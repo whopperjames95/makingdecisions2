@@ -109,6 +109,11 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 //Code Here
+let sumNum = myFavoriteNumbers.slice(4,5)
+  console.log(sumNum)
+  
+
+
 
 
 ////////// PROBLEM 7 //////////
@@ -117,6 +122,14 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 // Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
 
 //Code Here
+if(myFavoriteNumbers.length < 7){
+  console.log("there are not enough elements in this array")
+}
+
+
+
+
+
 
 
 ////////// PROBLEM 8 //////////
@@ -128,6 +141,10 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 // Use a for-loop to iterate through 'listOfNumbers', checking to see if each number is divisible by 3. If it is, console.log '{number} is divisible by 3.'
 
 //Code Here
+
+
+
+
 
 
 ////////// PROBLEM 9 //////////
