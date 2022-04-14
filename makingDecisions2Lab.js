@@ -36,6 +36,12 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
+for(let i = 0; i < 5; i++){
+  console.log(family[i])
+}
+
+
+
 
 
 
